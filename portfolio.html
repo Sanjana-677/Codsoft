@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sanjana Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class = "default-nav">
+            <a href="#about-me">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact-me">Contact</a>
+            <span><em>Sanjana</em></span>
+        </nav>
+        
+        
+    </header>
+    <main class = "container">
+        <article class="intro">
+            <img src="sanjana.jpg" alt="Profile image">
+            <h1>Hi, I am Sanjana</h1>
+            <p> I am Front -End Web Developer</p>
+            <p class="social">
+                <a href="https://www.linkedin.com/in/sanjana-pandey-5041b2247" target = "_blank">
+                    <img src="linkedin.png" alt="linkedin">
+                </a>
+                <a href="http://www.instagram.com/sanjanapandey677" target = "_blank">
+                    <img src="instagram.png" alt="instagram">
+                </a>
+
+            </p>
+        </article>
+
+        <section id = "about-me">
+            
+            <div id = "about para">
+                <h2>About Me</h2>
+            <p> I am a dedicated C++ programmer and Front-End Web
+                Developer with strong problem-solving skills and the ability to
+                perform in a team. A passionate learner, currently pursuing
+                studies at Guru Tegh Bahadur Institute of Technology, with foundational knowledge in
+                programming languages such as Python and Java. Highly
+                enthusiastic about coding and eager to explore and adapt to
+                cutting-edge technologies.
+            </p>
+            </div>
+            <div class= "aboutimg">
+                <img src="person.jpg" alt="person">
+            </div>
+            
+        </section>
+
+        <section id = skills>
+            <h2>Skills</h2>
+            <p>HTML</p>
+            <div class="scontainer">
+                <div class="skills html"></div>
+              </div>
+              
+              <p>CSS</p>
+              <div class="scontainer">
+                <div class="skills css"></div>
+              </div>
+              
+              <p>JavaScript</p>
+              <div class="scontainer">
+                <div class="skills js"></div>
+              </div>
+              
+              <p>C++</p>
+              <div class="scontainer">
+                <div class="skills c"></div>
+              </div>
+            </div>
+
+        </section>
+        
+        <section id = resume>
+            <h2>Resume</h2>
+            <div class="res">
+                <a href="resume.pdf" download>📥 Click to Download Resume</a>
+            </div>
+        
+        </section>
+      <br>
+        
+        <section id = "projects">
+            <h2>Projects</h2>
+            <section class="container">
+
+                <section class="card">
+                    <header>
+                        <h1>Portfolio Website</h1>
+                    </header>
+                    
+                        <p>It is portfolio project demonstrating Front-End Web Dev skills with
+                        HTML, CSS, and JavaScript.</p>
+                        <br>
+                    
+                </section>
+                <section class="card">
+                    <header>
+                        <h1>Food Ordering Website</h1>
+                    </header>
+                       <p>It is a responsive website designed for both mobile
+                        phones and laptops, focusing solely on the front-end part.
+                        </p>
+                    
+                </section>
+                <section class="card">
+                    <header>
+                        
+                        <h1>Employee Management System</h1>
+                    </header>
+                    
+                    
+                    
+                        <p>This system keep record of all the information about employees.User can access
+                             all information at one place.</p>
+    
+                </section>
+            </section>
+            
+            
+
+           
+            
+        </section>
+
+        <br>
+        <section id= "contact-me">
+            
+            <form name="contact" id ="contact" method="POST" data-netlify="true">
+                <h1>Contact Me</h1>
+                <section>
+                    <label for ="first-name">First name</label>
+                    <input type="text" name ="first-name" id="first-name" required>
+                </section>
+                <section>
+                    <label for = "last-name">Last name</label>
+                    <input type="text" name ="last-name" id="last-name" required>
+                </section>
+                <section>
+                    <label for ="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </section>
+                <button type="submit">Send</button>
+            </form>
+
+        </section>
+        
+    </main>
+    <footer>
+       Copyright © 2023 Sanjana's Portfolio.All Rights Reserved
+    </footer>
+    
+</body>
+</html>
